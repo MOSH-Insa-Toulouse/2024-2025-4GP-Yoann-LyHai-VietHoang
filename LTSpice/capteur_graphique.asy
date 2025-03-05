@@ -1,0 +1,22 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal 96 48 -112 -48
+CIRCLE Normal -29 -20 -8 -31
+CIRCLE Normal -9 8 -34 -13
+CIRCLE Normal 27 25 12 -33
+CIRCLE Normal -30 21 42 13
+CIRCLE Normal -23 30 -51 -8
+CIRCLE Normal 11 9 -7 35
+CIRCLE Normal 2 -15 40 -3
+PIN 80 -32 RIGHT 8
+PINATTR PinName Cp
+PINATTR SpiceOrder 1
+PIN 80 32 RIGHT 8
+PINATTR PinName Cn
+PINATTR SpiceOrder 2
+PIN -96 -32 LEFT 8
+PINATTR PinName Gp
+PINATTR SpiceOrder 3
+PIN -96 32 LEFT 8
+PINATTR PinName Gn
+PINATTR SpiceOrder 4

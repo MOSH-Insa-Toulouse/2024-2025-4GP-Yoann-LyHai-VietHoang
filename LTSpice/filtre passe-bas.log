@@ -1,0 +1,21 @@
+Circuit: * C:\Users\lhoang\Downloads\filtre passe-bas.asc
+
+.OP point found by inspection.
+
+Date: Tue Jan 28 08:56:28 2025
+Total elapsed time: 0.026 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 0
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 3
+fillins = 0
+solver = Normal
+Avg thread counts: 4.0/0.0/0.0/2.4
+Matrix Compiler1:       4 opcodes
+Matrix Compiler2:      15 opcodes
