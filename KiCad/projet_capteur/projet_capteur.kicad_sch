@@ -3601,7 +3601,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 152.4) (xy 139.7 158.75)
+			(xy 139.7 152.4) (xy 139.7 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4238,6 +4238,21 @@
 	(rule_area
 		(polyline
 			(pts
+				(xy 13.97 88.9) (xy 279.4 88.9) (xy 279.4 162.56) (xy 171.45 162.56) (xy 171.45 162.56) (xy 13.97 162.56)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid ca7a676e-ab55-4ad7-a980-d7130180617b)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
 				(xy 81.28 15.24) (xy 81.28 81.28) (xy 13.97 81.28) (xy 13.97 15.24)
 			)
 			(stroke
@@ -4247,22 +4262,7 @@
 			(fill
 				(type none)
 			)
-			(uuid c0bb1e10-b0ab-4469-8a79-5163055a77f0)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 13.97 88.9) (xy 279.4 88.9) (xy 279.4 162.56) (xy 171.45 162.56) (xy 171.45 193.04) (xy 13.97 193.04)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid dffbcf52-d877-4319-b783-b3afb95bf721)
+			(uuid de10b6fa-7b0d-41bb-a5d2-bf05b504c7f4)
 		)
 	)
 	(symbol
@@ -4931,7 +4931,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 139.7 158.75 0)
+		(at 139.7 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4940,7 +4940,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c09f00e-11d6-4020-b0ee-07c1b00ad3a3")
 		(property "Reference" "#PWR06"
-			(at 139.7 165.1 0)
+			(at 139.7 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4949,7 +4949,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 163.83 0)
+			(at 139.7 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4957,7 +4957,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 158.75 0)
+			(at 139.7 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4966,7 +4966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 158.75 0)
+			(at 139.7 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,7 +4975,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 158.75 0)
+			(at 139.7 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
