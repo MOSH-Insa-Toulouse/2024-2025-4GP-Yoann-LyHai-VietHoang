@@ -3584,7 +3584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Lib_empreint:SIP-4"
+		(property "Footprint" "Lib_empreint:Empreinte_OLED"
 			(at 113.03 31.75 0)
 			(effects
 				(font
