@@ -407,7 +407,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -1.27 -1.27 0)
+			(at 0 -2.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -475,6 +475,14 @@
 			)
 		)
 		(symbol "model_LTC1050_1_1"
+			(text "LTC1050"
+				(at 0 -0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(pin no_connect line
 				(at -17.78 2.54 0)
 				(length 2.54)
