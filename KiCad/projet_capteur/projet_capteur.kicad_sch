@@ -1100,12 +1100,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Ma_lib_graphique:model_FlexSensor"
+		(symbol "Ma_lib_graphique:model_Bluetooth"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at 0 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1147,10 +1147,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "model_FlexSensor_0_1"
+			(symbol "model_Bluetooth_0_1"
 				(rectangle
-					(start -7.62 2.54)
-					(end 6.35 8.89)
+					(start -10.16 25.4)
+					(end 10.16 0)
 					(stroke
 						(width 0)
 						(type default)
@@ -1160,9 +1160,9 @@
 					)
 				)
 			)
-			(symbol "model_FlexSensor_1_1"
-				(text "FlexSensor"
-					(at 0 7.366 0)
+			(symbol "model_Bluetooth_1_1"
+				(text "BLUETOOTH\n"
+					(at 0 18.796 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1170,9 +1170,9 @@
 					)
 				)
 				(pin input line
-					(at -2.54 0 90)
+					(at -6.35 -2.54 90)
 					(length 2.54)
-					(name "V+"
+					(name "Key"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1187,10 +1187,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 1.27 0 90)
+				(pin input line
+					(at -3.81 -2.54 90)
 					(length 2.54)
-					(name "V-"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1198,6 +1198,240 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 -2.54 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -2.54 90)
+					(length 2.54)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -2.54 90)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 -2.54 90)
+					(length 2.54)
+					(name "STATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Ma_lib_graphique:model_Rotary_Encoder"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 12.446 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "model_Rotary_Encoder_0_1"
+				(rectangle
+					(start -7.62 16.51)
+					(end 7.62 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "model_Rotary_Encoder_1_1"
+				(text "Rotary Encoder"
+					(at 0 9.906 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 90)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -2.54 90)
+					(length 2.54)
+					(name "DT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -2.54 90)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 -2.54 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2984,17 +3218,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Ma_lib_graphique:model_FlexSensor")
-		(at 113.03 50.8 0)
+		(lib_id "Ma_lib_graphique:model_Bluetooth")
+		(at 158.75 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "608a3ff9-4562-4f68-ac26-24c4a6945ce0")
+		(uuid "ac7b5bbd-0fb1-45fb-b801-f9cd22d294b6")
 		(property "Reference" "U2"
-			(at 120.65 44.4499 0)
+			(at 170.18 31.1149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3003,7 +3237,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 120.65 46.355 0)
+			(at 170.18 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3011,8 +3245,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Lib_empreint:Empreinte_FlexSensor"
-			(at 113.03 50.8 0)
+		(property "Footprint" ""
+			(at 158.75 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3021,7 +3255,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 50.8 0)
+			(at 158.75 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3030,7 +3264,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 50.8 0)
+			(at 158.75 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3038,16 +3272,107 @@
 				(hide yes)
 			)
 		)
+		(pin "5"
+			(uuid "41cbac89-2592-4a18-ba92-1827ccd6a0ab")
+		)
+		(pin "6"
+			(uuid "316efc8c-6e5c-49b5-b7e1-37d87f4b2857")
+		)
+		(pin "3"
+			(uuid "3083bce7-5603-4f3c-b8a8-3045cc0ba475")
+		)
 		(pin "1"
-			(uuid "7d4f23ad-9b2d-47cf-8bf2-49c0a264ee8e")
+			(uuid "e2e7b89f-ec1f-4fc0-8976-35f44ad33115")
 		)
 		(pin "2"
-			(uuid "f95e7334-0773-487d-893b-97114e46877c")
+			(uuid "f152c121-a308-4cbb-8f87-5ca620f5f5d8")
+		)
+		(pin "4"
+			(uuid "50a89869-5e5f-4339-8e88-1a76ed402166")
 		)
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Ma_lib_graphique:model_Rotary_Encoder")
+		(at 189.23 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8011e78-0ba4-4112-a78a-62a4e711941a")
+		(property "Reference" "U3"
+			(at 198.12 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 198.12 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "36d2a78d-9608-47b6-af94-f943e8023b6a")
+		)
+		(pin "2"
+			(uuid "cf5fd20e-eccb-4358-8c40-6ef5d08e6d8d")
+		)
+		(pin "3"
+			(uuid "32fe195a-7d77-4b1b-b4e6-4a1cb0e20632")
+		)
+		(pin "4"
+			(uuid "2c38ce0e-e178-42a6-b2c5-93e2a959fd53")
+		)
+		(pin "1"
+			(uuid "10fc7357-7c49-4e17-93d0-3cf34257a4bc")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "U3")
 					(unit 1)
 				)
 			)
