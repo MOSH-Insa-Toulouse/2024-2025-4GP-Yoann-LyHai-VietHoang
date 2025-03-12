@@ -3985,7 +3985,11 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 123.19 154.94) (xy 123.19 161.29)
+=======
+			(xy 139.7 152.4) (xy 139.7 154.94)
+>>>>>>> 99f7824c4e2d9effbcf4a879099ebd54d665f5e6
 		)
 		(stroke
 			(width 0)
@@ -5282,7 +5286,11 @@
 	(rule_area
 		(polyline
 			(pts
+<<<<<<< HEAD
 				(xy 13.97 88.9) (xy 279.4 88.9) (xy 279.4 162.56) (xy 171.45 162.56) (xy 171.45 193.04) (xy 13.97 193.04)
+=======
+				(xy 13.97 88.9) (xy 279.4 88.9) (xy 279.4 162.56) (xy 171.45 162.56) (xy 171.45 162.56) (xy 13.97 162.56)
+>>>>>>> 99f7824c4e2d9effbcf4a879099ebd54d665f5e6
 			)
 			(stroke
 				(width 0)
@@ -5291,7 +5299,11 @@
 			(fill
 				(type none)
 			)
+<<<<<<< HEAD
 			(uuid f8d17305-c510-47c6-8d5a-3d103e0bd211)
+=======
+			(uuid ca7a676e-ab55-4ad7-a980-d7130180617b)
+>>>>>>> 99f7824c4e2d9effbcf4a879099ebd54d665f5e6
 		)
 	)
 	(rule_area
@@ -5306,7 +5318,11 @@
 			(fill
 				(type none)
 			)
+<<<<<<< HEAD
 			(uuid fb17f1a8-a4ef-40b8-800f-2b679e359354)
+=======
+			(uuid de10b6fa-7b0d-41bb-a5d2-bf05b504c7f4)
+>>>>>>> 99f7824c4e2d9effbcf4a879099ebd54d665f5e6
 		)
 	)
 	(symbol
@@ -5975,7 +5991,11 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
+<<<<<<< HEAD
 		(at 123.19 161.29 0)
+=======
+		(at 139.7 154.94 0)
+>>>>>>> 99f7824c4e2d9effbcf4a879099ebd54d665f5e6
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5984,7 +6004,11 @@
 		(fields_autoplaced yes)
 		(uuid "2c09f00e-11d6-4020-b0ee-07c1b00ad3a3")
 		(property "Reference" "#PWR06"
+<<<<<<< HEAD
 			(at 123.19 167.64 0)
+=======
+			(at 139.7 161.29 0)
+>>>>>>> 99f7824c4e2d9effbcf4a879099ebd54d665f5e6
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5993,7 +6017,11 @@
 			)
 		)
 		(property "Value" "GND"
+<<<<<<< HEAD
 			(at 123.19 166.37 0)
+=======
+			(at 139.7 160.02 0)
+>>>>>>> 99f7824c4e2d9effbcf4a879099ebd54d665f5e6
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6001,7 +6029,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< HEAD
 			(at 123.19 161.29 0)
+=======
+			(at 139.7 154.94 0)
+>>>>>>> 99f7824c4e2d9effbcf4a879099ebd54d665f5e6
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6010,7 +6042,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< HEAD
 			(at 123.19 161.29 0)
+=======
+			(at 139.7 154.94 0)
+>>>>>>> 99f7824c4e2d9effbcf4a879099ebd54d665f5e6
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6019,7 +6055,11 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+<<<<<<< HEAD
 			(at 123.19 161.29 0)
+=======
+			(at 139.7 154.94 0)
+>>>>>>> 99f7824c4e2d9effbcf4a879099ebd54d665f5e6
 			(effects
 				(font
 					(size 1.27 1.27)
