@@ -1388,6 +1388,118 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Ma_lib_graphique:model_Graphite_Sensor"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "model_Graphite_Sensor_0_1"
+				(rectangle
+					(start -2.54 12.7)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.27 11.43) (xy 1.27 11.43) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "model_Graphite_Sensor_1_1"
+				(pin input line
+					(at -1.27 -2.54 90)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Ma_lib_graphique:model_Rotary_Encoder"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3327,7 +3439,7 @@
 	)
 	(symbol
 		(lib_id "Ma_lib_graphique:model_Bluetooth")
-		(at 158.75 44.45 0)
+		(at 142.24 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3336,7 +3448,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac7b5bbd-0fb1-45fb-b801-f9cd22d294b6")
 		(property "Reference" "U2"
-			(at 170.18 31.1149 0)
+			(at 153.67 31.1149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3345,7 +3457,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 170.18 33.02 0)
+			(at 153.67 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3354,7 +3466,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 44.45 0)
+			(at 142.24 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3363,7 +3475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 44.45 0)
+			(at 142.24 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3372,7 +3484,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 44.45 0)
+			(at 142.24 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3409,7 +3521,7 @@
 	)
 	(symbol
 		(lib_id "Ma_lib_graphique:model_Rotary_Encoder")
-		(at 189.23 36.83 0)
+		(at 165.1 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3418,7 +3530,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8011e78-0ba4-4112-a78a-62a4e711941a")
 		(property "Reference" "U3"
-			(at 198.12 27.9399 0)
+			(at 173.99 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3427,7 +3539,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 198.12 29.845 0)
+			(at 173.99 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3436,7 +3548,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 36.83 0)
+			(at 165.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,7 +3557,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 36.83 0)
+			(at 165.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3454,7 +3566,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 36.83 0)
+			(at 165.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,17 +3599,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Ma_lib_graphique:model_FlexSensor")
-		(at 114.3 60.96 0)
+		(lib_id "Ma_lib_graphique:model_Graphite_Sensor")
+		(at 205.74 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "feee3850-9cac-436c-9bc5-9c47069ff168")
-		(property "Reference" "U4"
-			(at 121.92 54.6099 0)
+		(uuid "e6857b38-bcdf-47f5-823c-6a15d9436b63")
+		(property "Reference" "U5"
+			(at 209.55 24.7649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3506,7 +3618,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 121.92 56.515 0)
+			(at 209.55 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3514,8 +3626,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Lib_empreint:Empreinte_FlexSensor"
-			(at 114.3 60.96 0)
+		(property "Footprint" ""
+			(at 205.74 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3524,7 +3636,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 60.96 0)
+			(at 205.74 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3533,7 +3645,77 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 60.96 0)
+			(at 205.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09c0d120-6c2e-472c-8193-99e893512222")
+		)
+		(pin "2"
+			(uuid "1d9391ac-158a-4032-8792-3900cb8991b8")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Ma_lib_graphique:model_FlexSensor")
+		(at 186.69 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "feee3850-9cac-436c-9bc5-9c47069ff168")
+		(property "Reference" "U4"
+			(at 194.31 21.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 194.31 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Lib_empreint:Empreinte_FlexSensor"
+			(at 186.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
