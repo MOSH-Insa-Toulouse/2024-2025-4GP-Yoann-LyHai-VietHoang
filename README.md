@@ -12,6 +12,7 @@
         * Module encodeur
         * Capteur de flexion
         * Potentionmètre MCP41050
+        * Capteur graphite à crayon
 
 
 
