@@ -1461,9 +1461,9 @@
 	(footprint "Lib_empreint:Empreinte_Bluetooth"
 		(layer "F.Cu")
 		(uuid "37470dac-6560-4d46-8ff8-8ed3f0c8d098")
-		(at 189.25 90)
+		(at 149 54.75 -90)
 		(property "Reference" "U1"
-			(at 10 -0.5 0)
+			(at 10 -0.5 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1476,7 +1476,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 8.5 1 0)
+			(at 8.5 1 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1489,7 +1489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 10 0 0)
+			(at 10 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1502,7 +1502,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 10 0 0)
+			(at 10 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1541,7 +1541,7 @@
 			(uuid "bbef39da-7c91-48a2-95db-671d922c592b")
 		)
 		(fp_text user "BLUETOOTH"
-			(at 2.5 -14.5 0)
+			(at 2.5 -14.5 270)
 			(unlocked yes)
 			(layer "F.Cu")
 			(uuid "0a248601-d8aa-4d5d-8d0e-730da7a337db")
@@ -1555,7 +1555,7 @@
 			)
 		)
 		(fp_text user "RXD"
-			(at 10.5 5.5 90)
+			(at 10.5 5.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "0a998007-3e7e-4a3e-bbc3-0b2dc8a7f6dd")
@@ -1569,7 +1569,7 @@
 			)
 		)
 		(fp_text user "STATE"
-			(at 13 7 90)
+			(at 13 7 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "3a94d0b3-226c-42bf-9e9b-8ac8b8c04e7e")
@@ -1583,7 +1583,7 @@
 			)
 		)
 		(fp_text user "VCC"
-			(at 3 5.5 90)
+			(at 3 5.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "487a936b-cb0d-45b1-bf96-c5a2d6342b0f")
@@ -1597,7 +1597,7 @@
 			)
 		)
 		(fp_text user "GND"
-			(at 5.5 5.5 90)
+			(at 5.5 5.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "c30d4999-930e-400b-a447-a4f537b2ca88")
@@ -1611,7 +1611,7 @@
 			)
 		)
 		(fp_text user "KEY"
-			(at 0 5.5 90)
+			(at 0 5.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e31c5c35-86e7-4981-93ca-4936c6a81bd7")
@@ -1624,7 +1624,7 @@
 			)
 		)
 		(fp_text user "TXD"
-			(at 8 5.5 90)
+			(at 8 5.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f29cdc18-5f19-40d5-ba01-0292d4c2aafb")
@@ -1638,7 +1638,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0)
+			(at 0 0 270)
 			(size 2.54 2.54)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -1649,7 +1649,7 @@
 			(uuid "addded59-f2e4-47ea-9b20-9ef08bdd7958")
 		)
 		(pad "2" thru_hole oval
-			(at 2.5 0)
+			(at 2.5 0 270)
 			(size 2 2.54)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -1660,7 +1660,7 @@
 			(uuid "4d91c897-1da4-44e5-acb0-51265e6e516f")
 		)
 		(pad "3" thru_hole oval
-			(at 5 0)
+			(at 5 0 270)
 			(size 2 2.54)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -1671,7 +1671,7 @@
 			(uuid "0f5fc61c-bbaa-4204-b972-98d65405d5c7")
 		)
 		(pad "4" thru_hole oval
-			(at 7.5 0)
+			(at 7.5 0 270)
 			(size 2 2.54)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -1682,7 +1682,7 @@
 			(uuid "8a7d3880-8d98-4f3d-8403-3d42066a25fc")
 		)
 		(pad "5" thru_hole oval
-			(at 10 0)
+			(at 10 0 270)
 			(size 2 2.54)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -1690,7 +1690,7 @@
 			(uuid "101a4ffa-077c-47ce-a99f-622241c6c59b")
 		)
 		(pad "6" thru_hole oval
-			(at 12.5 0 180)
+			(at 12.5 0 90)
 			(size 2 2.54)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -1702,13 +1702,13 @@
 	(footprint "Lib_empreint:Empreinte_Rotary_Encoder"
 		(layer "F.Cu")
 		(uuid "5fc5088f-2849-48a8-9b45-0bb346e7ca6f")
-		(at 209.5 57.5)
+		(at 160 55 -90)
 		(property "Reference" "U2"
-			(at 0 -0.5 0)
+			(at 0 -0.5 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f118a665-a708-41cb-afc8-350b6d6abe8b")
+			(uuid "7f427fff-5a4d-45b0-829c-4a476128b000")
 			(effects
 				(font
 					(size 1 1)
@@ -1717,11 +1717,11 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 1 0)
+			(at 0 1 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4dfe7518-f935-45ed-b565-9dfe5d64ebce")
+			(uuid "d774ae81-e055-4eaa-9275-0ffd767aacb7")
 			(effects
 				(font
 					(size 1 1)
@@ -1730,11 +1730,11 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "84118586-9a40-4342-8f13-5568323584f6")
+			(uuid "5b95bcfa-2219-45c0-bf7b-b8184e0c34b9")
 			(effects
 				(font
 					(size 1 1)
@@ -1743,11 +1743,11 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "549dcea7-b7c2-4919-aa8c-318cc35d48de")
+			(uuid "b224538e-31d0-439e-bc95-88fdb84cee96")
 			(effects
 				(font
 					(size 1 1)
@@ -1771,7 +1771,7 @@
 			(uuid "f8e56bf1-37b0-40e6-8e79-2f37c3ad7009")
 		)
 		(fp_text user "Rotary Encoder"
-			(at 6.5 -14 0)
+			(at 6.5 -14 270)
 			(unlocked yes)
 			(layer "F.Cu")
 			(uuid "424d7124-9da1-45b8-a71c-5ca46bc16de4")
@@ -1785,7 +1785,7 @@
 			)
 		)
 		(fp_text user "+"
-			(at 9.5 4 90)
+			(at 9.5 4 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "3abf1ca7-e686-401b-87d5-58b56fe38eea")
@@ -1799,7 +1799,7 @@
 			)
 		)
 		(fp_text user "SW"
-			(at 6.5 5 90)
+			(at 6.5 5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "741d65c1-d581-40b5-8d2d-e371316cc1da")
@@ -1813,7 +1813,7 @@
 			)
 		)
 		(fp_text user "GND"
-			(at 12.5 5.5 90)
+			(at 12.5 5.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "cb520aef-6256-4013-8322-63a5c55c7d11")
@@ -1827,7 +1827,7 @@
 			)
 		)
 		(fp_text user "DT"
-			(at 3.5 4.5 90)
+			(at 3.5 4.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d8cde206-d9e2-403a-9338-7217c849a2e3")
@@ -1841,7 +1841,7 @@
 			)
 		)
 		(fp_text user "CLK"
-			(at 0 5.5 90)
+			(at 0 5.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "faddc2c5-1aad-495c-88ba-a35016a09026")
@@ -1855,7 +1855,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0)
+			(at 0 0 270)
 			(size 2.54 2.54)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -1868,7 +1868,7 @@
 			(uuid "21334451-a50e-4a7b-ba8f-1f18683ce863")
 		)
 		(pad "2" thru_hole oval
-			(at 3 0)
+			(at 3 0 270)
 			(size 2 2.54)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -1880,7 +1880,7 @@
 			(uuid "8abdeff6-62ad-4306-aa6d-ede8a7d7c6c8")
 		)
 		(pad "3" thru_hole oval
-			(at 6 0)
+			(at 6 0 270)
 			(size 2 2.54)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -1892,7 +1892,7 @@
 			(uuid "bf451f44-f839-477c-9dbd-dcd11f9f61e2")
 		)
 		(pad "4" thru_hole oval
-			(at 9 0)
+			(at 9 0 270)
 			(size 2 2.54)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -1904,7 +1904,7 @@
 			(uuid "b295b49b-ca4f-4b11-ad59-504282dc5a03")
 		)
 		(pad "5" thru_hole oval
-			(at 12 0)
+			(at 12 0 270)
 			(size 2 2.54)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -2010,9 +2010,9 @@
 	(footprint "Lib_empreint:Empreinte_OLED"
 		(layer "F.Cu")
 		(uuid "9da50e71-6b4b-4cf2-a5c1-f100c2605b87")
-		(at 192.85 38.95)
+		(at 161.5 85.75 90)
 		(property "Reference" "U3"
-			(at 0 17 0)
+			(at 0 17 90)
 			(layer "F.SilkS")
 			(uuid "01e4afd7-dcb0-4e23-9202-94a6c1f743d5")
 			(effects
@@ -2023,7 +2023,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 -2.5 0)
+			(at 0 -2.5 90)
 			(layer "F.Fab")
 			(uuid "98e3a88a-ba92-447b-b537-56e40bbf8574")
 			(effects
@@ -2034,7 +2034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1723b4ed-545c-4759-87df-a76799e827c6")
@@ -2046,7 +2046,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bd5a85e6-ddf7-4ddd-8389-d6d5421d3221")
@@ -2073,7 +2073,7 @@
 			(uuid "7f68ece3-8782-4f84-9417-84bbb115357e")
 		)
 		(fp_text user "VCC"
-			(at -0.5 5 90)
+			(at -0.5 5 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "04a6a91a-af5d-45fb-9817-4f05f49c3667")
@@ -2086,7 +2086,7 @@
 			)
 		)
 		(fp_text user "SCL"
-			(at 2 5 90)
+			(at 2 5 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "42681ed9-10e6-43a2-aa2d-62ecec7c18d4")
@@ -2099,7 +2099,7 @@
 			)
 		)
 		(fp_text user "GND"
-			(at -3.5 5 90)
+			(at -3.5 5 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "8e0970eb-7d48-4df7-8944-ba08a9dc3dea")
@@ -2112,7 +2112,7 @@
 			)
 		)
 		(fp_text user "OLED"
-			(at 0 22.5 0)
+			(at 0 22.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "94875d15-3b12-438f-bea5-953ac006482f")
@@ -2125,7 +2125,7 @@
 			)
 		)
 		(fp_text user "SDA"
-			(at 4.5 5 90)
+			(at 4.5 5 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "99ffd477-44f9-404e-b44a-d0d538156c08")
@@ -2138,7 +2138,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at -3.75 0)
+			(at -3.75 0 90)
 			(size 2 2)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -2149,7 +2149,7 @@
 			(uuid "ff999b42-8409-49b9-a668-351fb20a055e")
 		)
 		(pad "2" thru_hole circle
-			(at -1.25 0)
+			(at -1.25 0 90)
 			(size 2 2)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -2160,7 +2160,7 @@
 			(uuid "9e288020-b84f-4f70-b103-61a0f5e2addd")
 		)
 		(pad "3" thru_hole circle
-			(at 1.25 0)
+			(at 1.25 0 90)
 			(size 2 2)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -2171,7 +2171,7 @@
 			(uuid "aad4da0f-4196-4d07-a3ee-fd1db3412c37")
 		)
 		(pad "4" thru_hole circle
-			(at 3.75 0)
+			(at 3.75 0 90)
 			(size 2 2)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -2321,7 +2321,7 @@
 	(footprint "Lib_empreint:Empreinte_FlexSensor"
 		(layer "F.Cu")
 		(uuid "a22bab58-3c59-4bd3-982d-d659af189ed1")
-		(at 144 58.5)
+		(at 150.5 89.5)
 		(property "Reference" "U2"
 			(at -1 -0.5 0)
 			(unlocked yes)
