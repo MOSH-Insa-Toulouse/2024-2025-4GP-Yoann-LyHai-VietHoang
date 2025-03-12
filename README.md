@@ -2,7 +2,7 @@
 
 # Projet du Capteur Graphite à crayon
 
-Table de matière
+**Table de matière**
 1. Introduction
     * Context
     * Matériaux utilisés : 
