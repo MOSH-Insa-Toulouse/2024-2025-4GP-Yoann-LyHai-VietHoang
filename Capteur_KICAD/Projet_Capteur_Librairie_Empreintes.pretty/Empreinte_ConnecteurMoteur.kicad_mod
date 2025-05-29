@@ -1,0 +1,151 @@
+(footprint "Empreinte_ConnecteurMoteur"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b683b46a-251f-4673-866f-28044ae83d92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Empreinte_ConnecteurMoteur"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58a58a83-bcda-456a-9485-55588d46e6fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c82902f5-2381-4c07-b063-1c9b5534a878")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d88b022-7a59-4eac-8ef2-ec33f18f5764")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.5 -13.5)
+		(end 6.5 -4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c1398b20-e0a2-4fc2-b602-afcf60765d5a")
+	)
+	(fp_text user "Motor Connection"
+		(at -5 -11.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "174b9215-b276-4937-a137-52dcd42962b2")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "PWM"
+		(at 3 -7.5 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "32f57f04-4c61-460a-b54a-6151e227f74e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at -2 -7.5 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d1f39605-756e-4113-b6db-edb7858f26a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "5V"
+		(at 0.5 -7.5 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f8b09035-6b50-45c9-add4-470ee27bb63f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.54 -6)
+		(size 2.54 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "0eb13eef-5e68-4585-aea3-85f4ffc03311")
+	)
+	(pad "2" thru_hole oval
+		(at 0 -6)
+		(size 2 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "5c4975b1-bdb7-4ca7-8b20-d741fd452b2d")
+	)
+	(pad "3" thru_hole oval
+		(at 2.54 -6)
+		(size 2 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "dc652190-1016-4005-8c7e-2801b3290848")
+	)
+	(embedded_fonts no)
+)
